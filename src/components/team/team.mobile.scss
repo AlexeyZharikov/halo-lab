@@ -1,23 +1,32 @@
-@media screen and (max-width: 1100px){
-  .team-photos{
-    flex-direction: column;
-    max-width: 600px;
-    width: 100%;
-    margin: 0 auto;
+@media screen and (max-width: 1100px) {
+  .team {
+    .team-photos {
+      flex-direction: column;
+      max-width: 600px;
+      width: 100%;
+      margin: 0 auto;
+      .line2 {
+        right: 119px;
+        bottom: 300px;
+      }
+      .line1 {
+        right: 135px;
+        top: 239px;
+      }
+    }
+    img.teamPhoto {
+      margin-bottom: 40px;
+    }
+    img.teamPhoto:nth-child(2) {
+      margin-top: 0;
+    }
+    img.teamPhoto:nth-child(odd) {
+      margin-left: 0;
+      margin-right: auto;
+    }
+    img.teamPhoto:nth-child(even) {
+      margin-right: 0;
+      margin-left: auto;
+    }
   }
-  img.teamPhoto{
-    margin-bottom: 40px
-  }
-  img.teamPhoto:nth-child(2) {
-    margin-top: 0;
-  }
-  img.teamPhoto:nth-child(odd){
-    margin-left: 0;
-    margin-right: auto;
-  }
-  img.teamPhoto:nth-child(even){
-    margin-right: 0;
-    margin-left: auto;
-  }
-
 }
