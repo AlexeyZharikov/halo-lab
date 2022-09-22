@@ -1,0 +1,52 @@
+.footer {
+  background: #f7f3f4;
+  padding-top: 96px;
+  .footer-inner {
+    display: flex;
+    justify-content: space-between;
+    .contacts {
+      max-width: 617px;
+      width: 100%;
+      margin: 0 auto;
+      .contacts-header {
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 48px;
+        text-transform: uppercase;
+        color: #333333;
+      }
+      .copyright{
+        max-width: 181px;
+      }
+    }
+    .headquarters-and-social{
+      display: flex;
+      justify-content: space-between;
+      max-width: 617px;
+      width: 100%;
+      margin: 0 auto;
+      .headquarters {
+        .headquarters-title {
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 32px;
+          color: #333333;
+          margin-bottom: 37px;
+        }
+      }
+      .social {
+        .social-title {
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 32px;
+          color: #333333;
+          margin-bottom: 37px;
+        }
+        .social-list {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+}

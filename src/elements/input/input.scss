@@ -1,0 +1,20 @@
+input {
+  border-radius: 40px;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0px 30px 40px rgba(240, 101, 126, 0.05);
+  font-size: 14px;
+  color: #000;
+}
+
+input:focus-visible {
+  outline: none;
+}
+input::-webkit-input-placeholder {
+  padding-left: 48px;
+  color: #807c7c;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}

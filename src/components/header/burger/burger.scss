@@ -1,0 +1,108 @@
+#burger-inner{
+  position: relative;
+  display: none;
+  div{
+    .bm-burger-button {
+      position: fixed;
+      width: 36px;
+      height: 30px;
+      right: 36px;
+      top: 36px;
+    }
+    .bm-burger-bars {
+      background: #000;
+    }
+  }
+  .bm-menu-wrap {
+    top: 0;
+    width: 100%!important;
+    position: fixed;
+    height: 100%;
+    .bm-menu {
+      background: #F7F3F4;
+      padding: 2.5em 1.5em 0;
+      font-size: 1.15em;
+      .bm-item-list {
+        color: #b8b7ad;
+        .bm-item.burger-logo{
+          border-bottom: 4px solid #222433;
+          padding: 0 0 40px 0;
+          text-align: left;
+        }
+        .bm-item {
+          display: inline-block;
+          text-align: center;
+        }
+        .bm-item.menu-item{
+          text-decoration: none;
+          font-weight: 400;
+          font-size: 28px;
+          line-height: 150%;
+          color: #000000;
+          opacity: 0.8;
+          margin-bottom: 58px;
+        }
+        .bm-item.menu-item:hover{
+          font-weight: 700;
+          transition: 0.8s;
+          -webkit-transition: 0.8s;
+          -moz-transition: 0.8s;
+          -ms-transition: 0.8s;
+          -o-transition: 0.8s;
+}
+        .bm-item.menu-item:nth-child(2){
+          margin-top: 72px;
+        }
+        #team{
+          margin-bottom: 165px;
+        }
+      }
+    }
+    div{
+      .bm-cross-button {
+        height: 24px!important;
+        width: 24px!important;
+        right: 25px!important;
+        top: 52px!important;
+        .bm-cross {
+          background: #000;
+        }
+      }
+    }
+  }
+  .header-btn{
+    display: block!important;
+    .apply {
+      padding: 13px 48px;
+      background-color: #ffffff;
+      box-shadow: 0px 30px 40px rgba(240, 101, 126, 0.05);
+      border-radius: 40px;
+      text-decoration: none;
+      color: #000000;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 140%;
+      text-transform: capitalize;
+      width: 100%;
+    }
+    .apply:hover {
+      transition: 0.8s;
+      background-color: #f2726c;
+      color: #fff;
+      -webkit-transition: 0.8s;
+      -moz-transition: 0.8s;
+      -ms-transition: 0.8s;
+      -o-transition: 0.8s;
+    }
+
+  }
+}
+
+
+
+.bm-morph-shape {
+  fill: #000;
+}
+
+
+

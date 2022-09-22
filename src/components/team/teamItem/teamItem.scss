@@ -1,0 +1,15 @@
+img.teamPhoto {
+  display: block;
+  max-width: 334px;
+  width: 100%;
+  height: 100%;
+  max-width: 340px;
+  width: 100%;
+  z-index: 1;
+}
+img.teamPhoto:nth-child(2) {
+  margin-top: 104px;
+}
+img.teamPhoto:nth-child(3) {
+  max-width: 280px;
+}

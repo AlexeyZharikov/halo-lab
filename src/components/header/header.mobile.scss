@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px){
+  .nav{
+    display: none!important;
+  }
+  .header-btn{
+    display: none!important;
+  }
+  #burger-inner {
+    display: block;
+  }
+}

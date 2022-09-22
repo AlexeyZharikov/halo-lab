@@ -1,0 +1,38 @@
+.faqs-inner {
+  display: flex;
+  justify-content: space-between;
+  .header {
+    max-width: 480px;
+    width: 100%;
+    margin: 0;
+    .section-header {
+      margin-bottom: 56px;
+      .text {
+        max-width: 423px;
+        width: 100%;
+      }
+    }
+    .faqs-btn {
+      max-width: 168px;
+      width: 100%;
+      padding: 15px 36px;
+
+    }
+  }
+  .accordion {
+    max-width: 536px;
+    width: 100%;
+    margin: 0 auto;
+    .accordion-item{
+      .item-header{
+        .accordion-btm{
+          width: 40px;
+          height: 40px;
+          margin: 28px 0;
+          
+        }
+      }
+
+    }
+  }
+}
